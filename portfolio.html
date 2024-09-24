@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+
+    
+
+</head>
+<body>
+    
+    <!-- Exercice 2 : En-tête et navigation -->
+    <header>
+        <h1>Algan</h1>
+        <h2>Développeur Web</h2>
+        <h3>tes moche</h3>
+    </header>
+    <!-- Exercice 6 : : Navigation par liens d'ancrage -->
+    <nav> 
+        <ul>
+            <li><a href="#portfolio.html">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Exercice 3 : Section À propos -->
+    <section id="about">
+        <h2><u>À propos de moi</u></h2>
+        <img src="img/photo_de_moi.jfif" alt="Photo de hack" width="400">
+        <p>Je suis un développeur web passionné par la création d'applications web dynamiques.</p>
+    </section>
+
+    <!-- Exercice 4 : Section Projets -->
+    <section id="projects" class="projects">
+        <h2><u>Projets</u></h2>
+
+        <article>
+            <img src="img/image_hack.jfif" alt="photo_de_hack" width="400">
+            <h3>Projet 1 : Site de Portfolio</h3>
+            <p>Ce projet est un site de portfolio personnel utilisant HTML.</p>
+            <!-- <a href="https://lien-vers-projet1.com" target="_blank">Voir le projet en direct</a> -->
+        </article>
+
+        <article>
+            <img src="img/capsule_616x353.jpg" alt="dead signale" width="400">
+            <h3>Projet 2 : Application de Gestion</h3>
+            <p>Une application de gestion des signaux mort pour eviter une panne en plein live</p>
+            <a href="https://welcometothegame.fandom.com/wiki/Dead_Signal" target="_blank">Voir le projet en direct</a>
+       
+        </article>
+
+        <article>
+            <img src="img/deadsek.jfif" alt="Capture d'écran du projet 3" width="400">
+            <h3>Projet 3 : Indregrer deadsec</h3>
+            <p>DedSec apparaît pour la première fois dans Watch Dogs (2014) et devient un groupe central dans Watch Dogs 2 (2016), où le joueur incarne Marcus Holloway, un hacker qui rejoint DedSec pour combattre le système de surveillance numérique "ctOS" utilisé par les autorités pour contrôler la population.</p>
+            <a href="https://watchdogs.fandom.com/fr/wiki/DedSec" target="_blank">Voir le projet en direct</a>
+        </article>
+    </section>
+
+    <!-- Exercice 5 : Section de contact -->
+    <section id="contact">
+        <h2><u>Contactez-moi</u></h2>
+        <form class="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Sujet :</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Exercice 7 : Pied de page -->
+    <footer>
+        <p><u>&copy; 2024 Algan. Tous droit réservés</u></p>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://www.youtube.com/watch?v=oeJENlvGJpw" target="_blank">Youtube de nath</a>
+    </footer>
+
+    <!-- Exercice 8 : Intégration d'une carte -->
+    <section id="map">
+        <h2><u>Localisation</u></h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d351.53695918992065!2d0.7222072607792291!3d45.1811106675535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ff6fcd5ea9c2b9%3A0xf059ab2235016157!2sTALIS%20Campus%20P%C3%A9rigueux!5e0!3m2!1sfr!2sfr!4v1727095657863!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</section>
+
+</body>
+</html>
